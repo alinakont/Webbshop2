@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/stylesL.css">
+    <link rel="stylesheet" href="./css/stylesM.css">
+    <!--<script defer src="./webbshop.js"></script>-->
+    <script src="./webbshop.js" async></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <img onclick="openMenu()" class="meny" src="./img/more.png" title="meny" alt="meny">
+        <img class="logga" src="./img/order-food (1).png" alt="logga">    
+        <div class="searchbar">
+            <img class="search" src="./img/search.png">
+            <input type="text" placeholder="search. . . .">
+        </div>
+        <a style="text-decoration: none;" class="login" href="#"><b>Login</b></a>
+        <img onclick="openCart()" class="cart" src="./img/shopping-bag.png" title="varukorg" alt="varukorg">
+    </header>
+    <div class="main">
+        <div class="kategorier">
+            <a href="#">Mejeri & ägg<br></a>
+            <a href="#">Frukt & grönt<br></a>
+            <a href="#">Skafferi<br></a>
+            <a href="#">Kött, fågel & chark<br></a>
+            <a href="#">Fisk & skaldjur<br></a>
+            <a href="#">Fryst<br></a>
+            <a href="#">Vegetariskt<br></a>
+            <a href="#">Dryck<br></a>
+            <a href="#">Bageri<br></a>
+            <a href="#">Smaksättare<br></a>
+            <a href="#">Godis & snacks<br></a>
+            <a href="#">Färdigt & mellanmål<br></a>
+            <a href="#">Hushåll<br></a>
+            <a href="#">Köket<br></a>
+            <a href="#">Hemmet<br></a>
+            <a href="#">Skönhet & hygien<br></a>
+            <a href="#">Hälsa & tillskott<br></a>
+            <a href="#">Tobak<br></a>
+            <a href="#">Barn<br></a>
+            <a href="#">Djur<br></a>
+            <a href="#">Delikatesser<br></a>
+            <!--<a style="text-decoration: none;" href="#"><br></a>-->
+        </div>    
+
+        <div class="flöde">
+            <div class="produkter">
+                <div id="produkt1" class="produkt">
+                    <img class="produktbild" src="./img/pngwing.com (14).png" alt="broccoli">
+                    <div class="description">
+                        <span class="title">Broccoli</span>
+                        <span class="detaljer">230g  ungefär vikt</span>
+                        <span class="pris">59.00/st</span>
+                        <button class="addCart">Köp</button>
+                    </div>
+                </div>
+                <div id="produkt2" class="produkt">
+                    <img class="produktbild" src="./img/pngwing.com (9).png" alt="rapsolja">
+                    <div class="description">
+                        <span class="title">Rapsolja</span>
+                        <span class="detaljer">230g ungefär vikt</span>
+                        <span class="pris">79.00/st</span>
+                        <button class="addCart">Köp</button>
+                    </div>
+                </div>
+                <div id="produkt3" class="produkt">
+                    <img class="produktbild" src="./img/pngwing.com (8).png" alt="ägg">
+                    <div class="description">
+                        <span class="title">Ägg</span>
+                        <span class="detaljer">230g  ungefär vikt</span>
+                        <span class="pris">59.95/st</span>
+                        <button class="addCart">Köp</button>
+                    </div>
+                </div>
+                <div id="produkt4" class="produkt">
+                    <img class="produktbild" src="./img/pngwing.com (7).png" alt="tomater">
+                    <div class="description">
+                        <span class="title">Tomater</span>
+                        <span class="detaljer">230g  ungefär vikt</span>
+                        <span class="pris">28.70/st</span>
+                        <button class="addCart">Köp</button>
+                    </div>
+                </div>
+                <div id="produkt5" class="produkt">
+                    <img class="produktbild" src="./img/pngwing.com (5).png" alt="kycklingbröst">
+                    <div class="description">
+                        <span class="title">Kycklingbröst</span>
+                        <span class="detaljer">230g  ungefär vikt</span>
+                        <span class="pris">68.99/st</span>
+                        <button class="addCart">Köp</button>
+                    </div>
+                </div>
+                <div id="produkt6" class="produkt">
+                    <img class="produktbild" src="./img/pngwing.com (6).png" alt="frallor">
+                    <div class="description">
+                        <span class="title">Frallor</span>
+                        <span class="detaljer">230g  ungefär vikt</span>
+                        <span class="pris">8.90/st</span>
+                        <button class="addCart">Köp</button>
+                    </div>
+                </div>
+                <div id="produkt7" class="produkt">
+                    <img class="produktbild" src="./img/pngwing.com (4).png" alt="baguette">
+                    <div class="description">
+                        <span class="title">Baguette</span>
+                        <span class="detaljer">230g  ungefär vikt</span>
+                        <span class="pris">7.50/st</span>
+                        <button class="addCart">Köp</button>
+                    </div>
+                </div>
+                <div id="produkt8" class="produkt">
+                    <img class="produktbild" src="./img/pngwing.com (3).png" alt="yoghurt">
+                    <div class="description">
+                        <span class="title">Yoghurt</span>
+                        <span class="detaljer">230g  ungefär vikt</span>
+                        <span class="pris">18.95/st</span>
+                        <button class="addCart">Köp</button>
+                    </div>
+                </div>
+            </div>
+            <div class="extra">
+                <div id="medlem">
+                    <p class="extraTitle">Bli medlem</p>
+                    <a class="extraBtn" href="#">Gå med</a>
+                </div>
+                <div id="erbjudanden">
+                    <p class="extraTitle">Aktuella erbjudanden</p>
+                    <a class="extraBtn" href="#">Handla nu</a>
+                </div>
+                <div id="lokalt">
+                    <p class="extraTitle">Lokala produkter</p>
+                    <a class="extraBtn" href="#">Hitta nu</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="afterTitles">
+            <ul class="foot1">
+                <p><b>Om oss</b></p>
+                <p>Hållbarhet</p>
+                <p>Förening</p>
+                <p>Arbete</p>
+                <p>Varumärke</p>
+            </ul>
+            <ul class="foot2">
+                <p><b>Bank</b></p>
+                <p>Mastercard</p>
+                <p>Matkonto</p>
+                <p>Rabattkod</p>
+            </ul>
+            <ul class="foot3">
+                <p><b>Företag</b></p>
+                <p>Tjänster</p>
+                <p>Inköpsportal</p>
+                <p>Handla online</p>
+                <p>Handla i butik</p>
+            </ul>
+            <ul class="foot4">
+                <p><b>Kundservice</b></p>
+                <p>Frågor & svar</p>
+                <p>Kontakta oss</p>
+                <p>Personuppgifter</p>
+                <p>Användarpolicy</p>
+            </ul>
+            <ul class="foot5">
+                <p><b>Login</b></p>
+                <p>Registrera dig</p>
+                <p>Bli medlem</p>
+                <p>Villkor</p>
+                <p>Matkupong</p>
+            </ul>
+        </div>
+        <div class="botten">
+            <img class="botten1" src="./img/order-food (1).png">
+            <div class="botten2">
+                <img src="./img/credit-card.png">
+                <img src="./img/visa.png">
+                <img src="./img/restaurant-membership-card-tool.png">
+                <img src="./img/symbols.png">
+            </div>
+            <img class="botten3" src="./img/socialmedia.PNG">
+        </div> 
+    </footer>
+
+
+    <div id="menubar" class="menybar">
+        <a href="#">Home<br></a>
+        <a href="#">Online<br></a>
+        <a href="#">Butik<br></a>
+        <a href="#">Hållbart<br></a>
+        <a href="#">Recept<br></a>
+        <a href="#">Medlem<br></a>
+        <a href="#">Bank<br></a>
+        <a href="#">Företag<br></a>
+    </div>
+    <div id="cartmenu" class="shoppingcart">
+        <div class="carttop">
+            <h1 class="carttitle">Varukorg</h1>
+            <img onclick="openCart()" class="closecart" src="./img/close.png">    
+        </div>
+
+        <div class="cartItems">
+            <div class="vara">
+                <img class="varubild" src="./img/pngwing.com (12).png">
+                <h2 class="varutitel">Fönster-och glasputs</h2>
+                <p class="varudetaljer">0,7 liter Clin Windows & Glas</p>
+                <div class="counter">
+                    <img class="less" src="./img/minus-sign.png">
+                    <span class="amount">1</span>
+                    <img class="more" src="./img/plus.png">
+                </div>
+                <span class="varupris">59.00/st</span>
+                <img class="remove" src="./img/close.png">
+            </div>
+            <div class="vara">
+                <h2 class="varutitel">Nånting annat</h2>
+                <p class="varudetaljer">0,7 liter Clin Windows & Glas</p>
+                <div class="counter">
+                    <img onclick="manageAmount()" class="less" src="./img/minus-sign.png">
+                    <span class="amount">1</span>
+                    <img onclick="manageAmount()" class="more" src="./img/plus.png">
+                </div>
+                <span class="varupris">59.56/st</span>
+                <img class="remove" src="./img/close.png">
+            </div>
+        </div>
+
+        <p class="töm">Töm varukorg</p>
+        <div class="cartbottom">
+            <p>Totalt</p>
+            <span class="total">118.00 kr</span>
+            <h2 class="kassan">Gå till kassan</h2>
+        </div>
+    </div>
+</body>
+</html>
